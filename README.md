@@ -19,11 +19,6 @@ Stock price prediction is complex due to the chaotic and nonlinear nature of fin
 - Explore hybrid approaches that combine **ARIMAX** and **ANN** for residual learning.
 
 ---
-## **Contribution**
-- Marie Qi: ARIMAX and ANN model
-- Han Gao: LSTM, ARIMAX + ANN, and data preprocessing
-- Jiaming Liu: ARIMA, ARIMAX Validation, ARIAM + ANN
----
 ## **Acknowledgements**
 This project is part of the NYU Advance topic: Deep Learning course. Special thanks to the course TA and professor for their guidance.
 
@@ -98,10 +93,7 @@ This project is part of the NYU Advance topic: Deep Learning course. Special tha
 
 ---
 
-## **Future Work**
-
-1. **Hybrid Models**: Explore ARIMA + LSTM for better performance.
-2. **Feature Engineering**: Add more exogenous features (e.g., GDP, dividends).
-3. **Data**: Collect larger datasets to improve deep learning model generalization.
-4. **Validation**: Address potential data leakage and overfitting and ensure rigorous cross-validation.
-
+## **Recent updates**
+1. **Hybrid Models**: Add black scholes model to improve the prediction
+2. **Feature Engineering**: Add more exogenous features (e.g., GDP, dividends). -> Delete the orignal features now
+3. **Validation**: Add validation set
